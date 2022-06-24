@@ -10,52 +10,54 @@ footer{
     z-index: 1000;
     background-color: $primary-light-color;
 }        
-.icons ul{
+.icons .container ul {
     display: flex;
     line-height: 100px;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 }                
-.icons li{
+.icons .container ul li{
     display: flex;
     justify-content: row;
     align-items: center;
+    justify-content: space-around;
 }
-.icons img{    
+.icons .container ul li img{    
     height: 40px;
 }
-.icons p{
+.icons .container ul li p{
     font-size: 0.8rem;
     margin-left: 0.5rem;
 }
 .banner{
     height: 560px;
-    background-image: url(../assets/img/footer-bg.jpg);
+    background-image: url('/img/footer-bg.jpg');
 }       
 .banner .container{
     display: flex;
 }           
-
-.links-wrapper{
+.banner .container .links-wrapper{
     display: flex;
     align-self: center;
     padding: 120px 0;
     flex-grow: 1;
 }                
-.links-wrapper div{
+.banner .container .links-wrapper div{
     margin-right: 1.5rem;
 }
-.links-wrapper ul{
+.banner .container .links-wrapper ul{
     margin-bottom: 1rem;
 }
-.links-wrapper h1{
+.banner .container .links-wrapper h1{
     font-size: 1.2rem;
     color: white;
     margin-bottom: 0.5rem;
 }
-.links-wrapper li{
+.banner .container .links-wrapper li{
     margin-bottom: 0.3rem;
 }
-.links-wrapper a{
+.banner .container .links-wrapper a{
     color: gray;
     font-weight: 300;
 }
@@ -68,29 +70,29 @@ footer{
     bottom: 0;
     z-index: 1000;
 }
-.container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+.footer-bottom .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }            
-.container a{
+.footer-bottom .container a{
     color: white;
     border: 3px solid $primary-color;
     padding: 0.5rem;
 }
-.container .follow-us{
+.footer-bottom .container .follow-us{
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
     flex-direction: row;
     align-items: center;
 }
-.container h1{
+.footer-bottom .container h1{
     font-size: 1.2rem;
     margin: 0 0.7rem;
     color: $primary-color;
 }        
-.container img{
+.footer-bottom .container img{
     margin: 0 0.5rem;
 }
             

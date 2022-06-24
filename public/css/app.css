@@ -45,19 +45,144 @@ nav {
   border-bottom: 4px solid #0C7CEC;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: center;
 }
 
-li {
+nav li {
   margin-left: 1.5rem;
   line-height: 96px;
 }
 
-a {
+nav a {
   font-weight: bold;
   color: inherit;
   height: 100%;
+}
+
+.main-banner div {
+  height: 50vh;
+}
+
+.main-banner div img {
+  width: 100%;
+}
+
+footer {
+  color: white;
+  position: relative;
+}
+
+.icons {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background-color: #0282F9;
+}
+
+.icons .container ul {
+  display: flex;
+  line-height: 100px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icons .container ul li {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icons .container ul li img {
+  height: 40px;
+}
+
+.icons .container ul li p {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.banner {
+  height: 560px;
+  background-image: url("/img/footer-bg.jpg");
+}
+
+.banner .container {
+  display: flex;
+}
+
+.banner .container .links-wrapper {
+  display: flex;
+  align-self: center;
+  padding: 120px 0;
+  flex-grow: 1;
+}
+
+.banner .container .links-wrapper div {
+  margin-right: 1.5rem;
+}
+
+.banner .container .links-wrapper ul {
+  margin-bottom: 1rem;
+}
+
+.banner .container .links-wrapper h1 {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.banner .container .links-wrapper li {
+  margin-bottom: 0.3rem;
+}
+
+.banner .container .links-wrapper a {
+  color: gray;
+  font-weight: 300;
+}
+
+.footer-bottom {
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  background-color: #303030;
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.footer-bottom .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-bottom .container a {
+  color: white;
+  border: 3px solid #0C7CEC;
+  padding: 0.5rem;
+}
+
+.footer-bottom .container .follow-us {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-bottom .container h1 {
+  font-size: 1.2rem;
+  margin: 0 0.7rem;
+  color: #0C7CEC;
+}
+
+.footer-bottom .container img {
+  margin: 0 0.5rem;
 }
 

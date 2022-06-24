@@ -19,5 +19,10 @@
           </ul>
         </nav>
       </div>
-
 </header>
+
+<section class="main-banner">
+    <div>
+        <img src="{{ asset('img/jumbotron.jpg') }}" alt="">
+    </div>
+</section>
