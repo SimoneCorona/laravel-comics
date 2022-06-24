@@ -21,11 +21,31 @@ a {
   text-decoration: none;
 }
 
+.blue-btn {
+  background-color: #0282F9;
+  color: white;
+  padding: 0.7rem 0.7rem;
+}
+
 header {
   padding: 1rem auto;
 }
 
-.container {
+.pre-nav {
+  background-color: #0282F9;
+}
+
+.pre-nav .container {
+  justify-content: end;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.pre-nav .container p {
+  margin-left: 1rem;
+}
+
+header .container {
   align-items: center;
   display: flex;
 }
@@ -67,6 +87,13 @@ nav a {
 
 .main-banner div img {
   width: 100%;
+}
+
+.main-banner .blue-btn {
+  position: absolute;
+  left: 15%;
+  bottom: 30%;
+  z-index: 1000;
 }
 
 footer {

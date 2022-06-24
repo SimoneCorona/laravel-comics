@@ -80,7 +80,12 @@
                     </ul>
                 </div>
             </div>
-
+            <div>
+                <p>
+                All Sites Content TM and &copy; 2020 DC Entertaiment, unless otherwise <a href="">noted here</a>.
+                All rights reserved. <a href="">Cookies settings</a>
+                </p>
+            </div>
             <div class="banner-log">
                 <img src="{{ asset('img/dc-logo-bg.png') }}" alt="">
             </div>
