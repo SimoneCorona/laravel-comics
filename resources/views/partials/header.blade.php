@@ -23,6 +23,11 @@
             <li><a href=""> FANS </a></li>
             <li><a href=""> NEWS </a></li>
             <li><a href=""> SHOP </a></li>
+            <li>
+              <form action="">
+                <input type="text" placeholder="Search">
+              </form>
+            </li>
           </ul>
         </nav>
       </div>
@@ -31,6 +36,6 @@
 <section class="main-banner">
     <div>
         <img src="{{ asset('img/jumbotron.jpg') }}" alt="">
-        <span class="blue-btn first"><a>CURRENT SERIES</a></span>
+        <span class="blue-btn"><a>CURRENT SERIES</a></span>
     </div>
 </section>

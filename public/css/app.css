@@ -27,6 +27,37 @@ a {
   padding: 0.7rem 0.7rem;
 }
 
+main {
+  background-color: black;
+  position: relative;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.wrapper {
+  width: 16.6666666667%;
+}
+
+.wrapper .productsInfo {
+  margin: 0 1rem;
+}
+
+.wrapper .productsInfo img {
+  width: 100%;
+}
+
+.wrapper .productsInfo p {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: white;
+}
+
 header {
   padding: 1rem auto;
 }
@@ -213,3 +244,33 @@ footer {
   margin: 0 0.5rem;
 }
 
+main {
+  background-color: black;
+  position: relative;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.wrapper {
+  width: 16.6666666667%;
+}
+
+.wrapper .productsInfo {
+  margin: 0 1rem;
+}
+
+.wrapper .productsInfo img {
+  width: 100%;
+}
+
+.wrapper .productsInfo p {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: white;
+}
