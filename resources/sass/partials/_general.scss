@@ -35,12 +35,21 @@ main{
 main .container{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
 .wrapper{
     width: calc(100% / 6);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }   
 .wrapper .productsInfo{
     margin: 0 1rem;

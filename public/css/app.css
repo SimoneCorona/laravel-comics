@@ -35,13 +35,22 @@ main {
 main .container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
 
 .wrapper {
   width: 16.6666666667%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .wrapper .productsInfo {
@@ -242,35 +251,4 @@ footer {
 
 .footer-bottom .container img {
   margin: 0 0.5rem;
-}
-
-main {
-  background-color: black;
-  position: relative;
-}
-
-main .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-}
-
-.wrapper {
-  width: 16.6666666667%;
-}
-
-.wrapper .productsInfo {
-  margin: 0 1rem;
-}
-
-.wrapper .productsInfo img {
-  width: 100%;
-}
-
-.wrapper .productsInfo p {
-  font-weight: 300;
-  font-size: 0.8rem;
-  color: white;
 }

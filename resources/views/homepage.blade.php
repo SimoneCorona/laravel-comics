@@ -9,7 +9,7 @@
        <div class="wrapper">
             @foreach ($data as $comic) 
                 <div class="productsInfo">
-                    <img :src="{{ $comic['thumb'] }}" alt="">
+                    <img src="{{ $comic['thumb'] }}" alt="">
                     <p>{{ $comic['series'] }}</p>
                 </div>
             @endforeach
