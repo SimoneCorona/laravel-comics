@@ -9,8 +9,10 @@
        <div class="wrapper">
             @foreach ($data as $comic) 
                 <div class="productsInfo">
-                    <img src="{{ $comic['thumb'] }}" alt="">
-                    <p>{{ $comic['series'] }}</p>
+                    <a href="{{ route('comic_info') }}">
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                        <p>{{ $comic['series'] }}</p>
+                    </a>
                 </div>
             @endforeach
         </div>
