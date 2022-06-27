@@ -1,0 +1,50 @@
+// TOP PRODUCT
+.product_wrapper{
+    background-color: white;
+}
+.container {
+    display: flex; 
+
+}
+.container div:first-child{
+    width: 70%;
+    padding: 1rem;
+}
+
+.green-section{
+    background-color: #55BA59;
+}
+.green-section div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid black;
+}
+.green-section div:first-child{
+    width: 60%;
+}
+.green-section div:last-child{
+    width: calc(38% - 4px);
+}
+.green-section div p {
+    display: inline-block;
+}
+.description{
+    color: grey;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
+.advertisement p{
+    text-align: end;
+}
+//BOTTOM PRODUCT
+.btm_product{
+    background-color: #F6F6F6;
+    border-color: grey;
+}
+.btm_product .container{
+    display: flex;
+}
+.btm_product .container div{
+    width: 50%;
+}

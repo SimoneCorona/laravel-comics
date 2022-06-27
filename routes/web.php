@@ -13,19 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+$data = config('comics');
 
-
-Route::get('/', function () {
-    $data = config('comics');
+Route::get('/', function () use($data) {
     return view('homepage', compact("data"));
 });
 
-Route::get('/comic_info/{id}', function($id) use ($data){
-    $data = config('comics');
+Route::get('/comic_info/{id}', function($id) use($data) {
     $single_comic = collect($data)->where('id', $id)->first();
     
+    $data = array_merge($data, ['single_comic' => $single_comic]);
     if (!$single_comic) {
         return abort(404);
     }
-    return view('comic_info', compact($single_comic));
-});
+    return view('comic_info', $data);
+})->name('comic_info');
